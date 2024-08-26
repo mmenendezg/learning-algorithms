@@ -1,0 +1,26 @@
+[project]
+name = "learning-algorithms"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [{name = "Marlon Menendez", email = "marlon.menendezg@gmail.com"}]
+requires-python = ">= 3.11"
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pixi.project]
+channels = ["conda-forge", "https://conda.modular.com/max"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+learning-algorithms = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+ipykernel = ">=6.29.5,<6.30"
+ruff = ">=0.6.2,<0.7"
+matplotlib = ">=3.9.2,<3.10"
+polars = ">=1.5.0,<1.6"
