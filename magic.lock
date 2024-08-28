@@ -595,7 +595,7 @@ packages:
   name: learning-algorithms
   version: 0.1.0
   path: .
-  sha256: 126365b521ec0bcd388921146bd8a626b3680427c041dbbefddb242543c9749f
+  sha256: 47f6e446443723b533c86b9fff59ff3b0f8f57ed4638ec3230f84036c3755432
   requires_python: '>=3.11'
   editable: true
 - kind: conda
