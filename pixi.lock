@@ -43,6 +43,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/1e/fb/3e85a39511586053b5c6a59a643879e376fae22230ebfef9cfabb0e032e2/numpy-2.1.2-cp313-cp313-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c6/ac/dac4a63f978e4dcb3c6d3a78c4d8e0192a113d288502a1216950c41b1027/parso-0.8.4-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/6a/6b/d94b0f8ab4aab03eb0bb01bfc6e9a10897bf2eb74d81d30be20dac95389f/perfect-hash-0.4.3.tar.gz
       - pypi: https://files.pythonhosted.org/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/43/72/92ad4afaa2afc233dc44184adff289c2e77e8cd916b3ddb72ac69495bda3/pillow-11.0.0-cp313-cp313-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl
@@ -580,6 +581,11 @@ packages:
   - docopt ; extra == 'testing'
   - pytest ; extra == 'testing'
   requires_python: '>=3.6'
+- kind: pypi
+  name: perfect-hash
+  version: 0.4.3
+  url: https://files.pythonhosted.org/packages/6a/6b/d94b0f8ab4aab03eb0bb01bfc6e9a10897bf2eb74d81d30be20dac95389f/perfect-hash-0.4.3.tar.gz
+  sha256: b886b33f79bbf429c2a8c6dbb9329748fb931124f28a2eda461195e6430f88b5
 - kind: pypi
   name: pexpect
   version: 4.9.0
