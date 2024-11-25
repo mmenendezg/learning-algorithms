@@ -1,6 +1,6 @@
 [project]
-authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
-channels = ["conda-forge"]
+authors = ["Marlon Menendez <44656927+mmenendezg@users.noreply.github.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
 description = "Add a short description here"
 name = "learning-algorithms"
 platforms = ["osx-arm64"]
@@ -9,11 +9,9 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-python = ">=3.13.0,<4"
+max = ">=24.6.0.dev2024111005,<25"
 
 [pypi-dependencies]
-numpy = ">=2.1.2, <3"
 ipykernel = ">=6.29.5, <7"
-ruff = ">=0.7.0, <0.8"
 matplotlib = ">=3.9.2, <4"
 perfect-hash = ">=0.4.3, <0.5"
