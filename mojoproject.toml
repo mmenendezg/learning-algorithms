@@ -1,0 +1,15 @@
+[project]
+authors = ["Marlon Menendez <44656927+mmenendezg@users.noreply.github.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
+description = "Add a short description here"
+name = "learning-algorithms"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = ">=24.6.0.dev2024112405,<25"
+
+[pypi-dependencies]
+ipykernel = ">=6.29.5, <7"
